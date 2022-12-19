@@ -15,9 +15,7 @@ session_start();
 
 <div class="container mt-5">
 
-<!-- bootstrap copy -->
-<!-- disini -->
-<!-- bootstrap copy -->
+<?php include('message.php');?>
 
     <div class="row">
         <div class="col-md-12">
