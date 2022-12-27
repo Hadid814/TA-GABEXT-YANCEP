@@ -1,3 +1,10 @@
+<?php
+
+    require 'dbcon.php';
+
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,6 +40,10 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <?php 
+                            $query = "SELECT * FROM dbpeminjam";
+                            $query_run = mysqli_query($con, $query);                      
+                        ?>
                         <tr>
                             <td>1</td>
                         </tr>
