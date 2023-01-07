@@ -31,7 +31,7 @@
             <a class= "nav-link" href="#">Laporan Peminjaman</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link btn-danger btn-sm text-white" href="logout.php">keluar</a>
+            <a class="nav-link btn-danger btn-sm text-white" href="logout.php">keluar</a> 
         </li>
         </ul>
     </div>
